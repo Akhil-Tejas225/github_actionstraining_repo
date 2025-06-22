@@ -1,0 +1,14 @@
+name: first_work_flow
+on:
+  workflow_dispatch:
+jobs:
+  job_1:
+   name: First_job
+   runs-on: ubuntu-latest
+   steps:
+     - name: first_steps
+       run: echo "my first steps"
+     - name: "wishes"
+       run: echo "wish you all the best"
+   
+  
